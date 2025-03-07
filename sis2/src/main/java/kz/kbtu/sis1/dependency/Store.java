@@ -7,7 +7,6 @@ import org.springframework.beans.factory.annotation.Qualifier;
 
 @Data
 public class Store {
-
     @Autowired
     @Qualifier("item1")
     private Item item;
